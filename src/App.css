@@ -1,3 +1,14 @@
+.container {
+  padding-top: 15rem;
+  padding-bottom: 0rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pages {
+  padding-top: 1rem;
+}
+
 .App {
   text-align: center;
 }
