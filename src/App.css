@@ -1,8 +1,13 @@
 .container {
-  padding-top: 15rem;
+  padding-top: 8em;
   padding-bottom: 0rem;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+@media (max-width: 669px) {
+  .container {
+    padding-top: 3em;
+  }
 }
 
 .pages {

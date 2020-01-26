@@ -58,12 +58,12 @@ export default Botnav;
 const NavBarBot = styled(animated.nav)`
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 90px;
   top: 45px;
   left: 0;
   background: #e3e3e3;
   z-index: 1;
-  font-size: 3.4rem;
+  font-size: 2.5rem;
   @media (max-width: 669px) {
     display: none;
 `;
@@ -81,12 +81,13 @@ const NavLinks = styled(animated.ul)`
   justify-self: end;
   list-style-type: none;
   margin: auto 0;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  padding-left: 3.2rem;
 
   & a {
     color: #5a5a5a;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
     transition: all 200ms linear 0s;

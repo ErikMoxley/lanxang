@@ -1,6 +1,6 @@
 .title {
   color: gray;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 
 .logoBrand {
@@ -24,11 +24,13 @@
 
 .navLinks {
   outline: none;
+  text-decoration: none;
 }
 
 .navLinks li a {
   outline: none;
 }
+
 /* .kFfSTi a {
     color: #69b7d6 !important;
   }

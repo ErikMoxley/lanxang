@@ -27,7 +27,9 @@ const Topnav = props => {
         <FlexContainer>
           <BrandTop />
           <div className="coName">
-            <h1 className="title">Lanxang Star</h1>
+            <Link className="navLinks" to="/">
+              <h1 className="title">Lanxang Star</h1>
+            </Link>
           </div>
           <NavLinks style={linkAnimation}>
             <Link className="navLinks" to="about">

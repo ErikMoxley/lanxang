@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../../assets/lanxang1.png";
 import "../../styles/Header.css";
 
 const BrandTop = () => {
   return (
-    <a href="/" className="logoBrandTop">
+    <Link to="/" className="logoBrandTop">
       <Image className="logo" src={logo} alt="" />
-    </a>
+    </Link>
   );
 };
 
@@ -19,4 +20,5 @@ const Image = styled.img`
   @media (min-width: 669px) {
     display: none;
     margin-left: -5rem;
+  }
 `;
