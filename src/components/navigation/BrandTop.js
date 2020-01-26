@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/lanxang1.png";
 import "../../styles/Header.css";
 
 const BrandTop = () => {
@@ -14,9 +14,9 @@ const BrandTop = () => {
 export default BrandTop;
 
 const Image = styled.img`
-  height: 100%;
+  height: 40px;
   margin: 0;
-  @media (min-width: 569px) {
+  @media (min-width: 669px) {
     display: none;
     margin-left: -5rem;
 `;

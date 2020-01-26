@@ -59,17 +59,17 @@ const NavBarBot = styled(animated.nav)`
   position: fixed;
   width: 100%;
   height: 80px;
-  top: 40px;
+  top: 45px;
   left: 0;
-  background: #c4c4c478;
+  background: #e3e3e3;
   z-index: 1;
   font-size: 3.4rem;
-  @media (max-width: 569px) {
+  @media (max-width: 669px) {
     display: none;
 `;
 
 const FlexContainer = styled.div`
-  max-width: 120rem;
+  max-width: 100%;
   display: flex;
   margin: auto;
   padding: 0 2rem;
@@ -99,7 +99,7 @@ const NavLinks = styled(animated.ul)`
       border-top: 3px solid #69b7d6;
     }
 
-    @media (max-width: 569px) {
+    @media (max-width: 669px) {
       display: none;
     }
   }

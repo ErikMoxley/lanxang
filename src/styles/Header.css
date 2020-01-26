@@ -1,5 +1,10 @@
+.title {
+  color: gray;
+  padding: 0.5rem;
+}
+
 .logoBrand {
-  margin-right: -10rem;
+  margin-right: 0rem;
   outline: none;
 }
 
@@ -8,8 +13,13 @@
   outline: none;
 }
 
-.jtFsLr {
-  margin-bottom: 2rem;
+.hbnIYc {
+  width: 190rem !important;
+  left: -35rem !important;
+}
+
+.eIObDA {
+  padding-left: 3rem;
 }
 
 .navLinks {

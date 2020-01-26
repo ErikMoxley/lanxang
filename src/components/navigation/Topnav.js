@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
 import BrandTop from "./BrandTop";
+import "../../styles/Header.css";
 
 const Topnav = props => {
   const barAnimation = useSpring({
@@ -25,6 +26,9 @@ const Topnav = props => {
       <NavBarTop style={barAnimation}>
         <FlexContainer>
           <BrandTop />
+          <div className="coName">
+            <h1 className="title">Lanxang Star</h1>
+          </div>
           <NavLinks style={linkAnimation}>
             <Link className="navLinks" to="about">
               About
@@ -57,23 +61,26 @@ export default Topnav;
 const NavBarTop = styled(animated.nav)`
   position: fixed;
   width: 100%;
-  height: 40px;
+  height: 45px;
   top: 0;
   left: 0;
   background: #2d3436;
   z-index: 1;
   font-size: 1.4rem;
+  @media (max-width: 369px) {
+    font-size: 1rem;
+  }
 `;
 
 const FlexContainer = styled.div`
-  max-width: 120rem;
+  max-width: 100%;
   display: flex;
   margin: auto;
   padding: 0 2rem;
-  padding-left: 10rem;
-  justify-content: left;
+  padding-left: 11rem;
+  justify-content: flex-start;
   height: 5rem;
-  @media (max-width: 569px) {
+  @media (max-width: 669px) {
     justify-content: space-between !important;
   }
 `;
@@ -99,7 +106,7 @@ const NavLinks = styled(animated.ul)`
       border-bottom: 1px solid #69b7d6;
     }
 
-    @media (max-width: 569px) {
+    @media (max-width: 669px) {
       display: none;
     }
   }
@@ -108,7 +115,7 @@ const NavLinks = styled(animated.ul)`
 const BurgerWrapper = styled.div`
   margin: auto 0;
 
-  @media (min-width: 569px) {
+  @media (min-width: 669px) {
     display: none;
   }
 `;

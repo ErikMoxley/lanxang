@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/lanxang2.png";
 import "../../styles/Header.css";
 
 const BrandBot = () => {
@@ -15,6 +15,6 @@ const BrandBot = () => {
 export default BrandBot;
 
 const Image = styled.img`
-  height: 200%;
+  height: 80px;
   margin: 0;
 `;
