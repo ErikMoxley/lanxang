@@ -28,7 +28,7 @@ const Topnav = props => {
           <BrandTop />
           <div className="coName">
             <Link className="navLinks" to="/">
-              <h1 className="title">Lanxang Star</h1>
+              <h1 className="title">LANXANG</h1>
             </Link>
           </div>
           <NavLinks style={linkAnimation}>

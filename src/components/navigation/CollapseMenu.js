@@ -62,19 +62,20 @@ export default CollapseMenu;
 const CollapseWrapper = styled(animated.div)`
   background: #2d3436;
   position: fixed;
+  height: 100%;
   top: 4rem;
   left: 0;
   right: 0;
+  @media (min-width: 669px) {
+    display: none;
 `;
 
 const NavLinks = styled.ul`
   list-style-type: none;
   padding: 2rem 1rem 2rem 75%;
-
   & li {
     transition: all 300ms linear 0s;
   }
-
   & a {
     font-size: 1.4rem;
     line-height: 4;
@@ -82,7 +83,6 @@ const NavLinks = styled.ul`
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-
     &:hover {
       color: #dfe6e9;
       border-bottom: 1px solid #dfe6e9;
