@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 export const Menu = () => (
-  <Fade duration={3000}>
+  <Fade duration={2500}>
     <section>
       <div className="page">
         <h2>Menu</h2>

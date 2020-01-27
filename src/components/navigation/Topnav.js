@@ -10,9 +10,9 @@ import "../../styles/Header.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faInstagram,
-  faTwitch,
   faDiscord,
+  faInstagram,
+  faTwitter,
   faFacebook
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -63,7 +63,31 @@ const Topnav = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faFacebook} size="1x" />
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+              </a>
+
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
+              </a>
+
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </a>
+
+              <a
+                href="https://www.discord.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faDiscord} size="2x" />
               </a>
             </ul>
           </div>

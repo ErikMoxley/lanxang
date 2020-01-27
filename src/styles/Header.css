@@ -41,6 +41,40 @@
   }
 }
 
+.fa-facebook,
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-twitter,
+.fa-twitter-square {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-discord {
+  color: #7289da;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-discord {
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-discord:hover {
+  color: white;
+}
+
 /* .kFfSTi a {
     color: #69b7d6 !important;
   }

@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 export const Home = () => (
-  <Fade duration={2000}>
+  <Fade duration={2500}>
     <section>
       <div className="page">
         <h2>Home</h2>
