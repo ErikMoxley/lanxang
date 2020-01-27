@@ -31,6 +31,16 @@
   outline: none;
 }
 
+.socialMedia {
+  margin: auto;
+  margin-right: 1rem;
+}
+@media (max-width: 669px) {
+  .socialMedia {
+    display: none;
+  }
+}
+
 /* .kFfSTi a {
     color: #69b7d6 !important;
   }

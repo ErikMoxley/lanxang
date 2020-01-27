@@ -66,6 +66,7 @@ const CollapseWrapper = styled(animated.div)`
   top: 4rem;
   left: 0;
   right: 0;
+  z-index: 2;
   @media (min-width: 669px) {
     display: none;
 `;

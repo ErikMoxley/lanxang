@@ -8,6 +8,14 @@ import CollapseMenu from "./CollapseMenu";
 import BrandTop from "./BrandTop";
 import "../../styles/Header.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faTwitch,
+  faDiscord,
+  faFacebook
+} from "@fortawesome/free-brands-svg-icons";
+
 const Topnav = props => {
   const barAnimation = useSpring({
     from: { transform: "translate3d(0, -10rem, 0)" },
@@ -48,6 +56,17 @@ const Topnav = props => {
               handleNavbar={props.handleNavbar}
             />
           </BurgerWrapper>
+          <div class="socialMedia">
+            <ul className="socialMediaList">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faFacebook} size="1x" />
+              </a>
+            </ul>
+          </div>
         </FlexContainer>
       </NavBarTop>
       <CollapseMenu
@@ -67,7 +86,7 @@ const NavBarTop = styled(animated.nav)`
   top: 0;
   left: 0;
   background: #2d3436;
-  z-index: 1;
+  z-index: 3;
   font-size: 1.4rem;
   @media (max-width: 369px) {
     font-size: 1rem;
