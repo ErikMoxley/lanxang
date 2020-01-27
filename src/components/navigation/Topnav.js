@@ -65,7 +65,6 @@ const Topnav = props => {
               >
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
-
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
@@ -73,7 +72,6 @@ const Topnav = props => {
               >
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
-
               <a
                 href="https://www.twitter.com/"
                 target="_blank"
@@ -81,7 +79,6 @@ const Topnav = props => {
               >
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
               </a>
-
               <a
                 href="https://www.discord.com/"
                 target="_blank"

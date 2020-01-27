@@ -8,6 +8,7 @@ import { Promos } from "./pages/Promos";
 import { Order } from "./pages/Order";
 import { Contact } from "./pages/Contact";
 import { Careers } from "./pages/Careers";
+import Footer from "./components/Footer";
 
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -47,7 +48,7 @@ class App extends Component {
             */} */}
           </Switch>
         </div>
-        <div className="footer-container">{/* <Footer /> */}</div>
+        <Footer />
       </BrowserRouter>
     );
   }
