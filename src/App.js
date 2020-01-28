@@ -10,10 +10,11 @@ import { Contact } from "./pages/Contact";
 import { Careers } from "./pages/Careers";
 import Footer from "./components/Footer";
 
-import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop.js";
 
 import GlobalStyle from "./styles/Global";
+import "./App.css";
 
 class App extends Component {
   state = {
@@ -27,6 +28,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
+        <ScrollToTop />
         <div className="container">
           <Topnav
             navbarState={this.state.navbarOpen}
@@ -39,12 +41,12 @@ class App extends Component {
           <GlobalStyle />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/menu" component={Menu} />}
-            <Route exact path="/promos" component={Promos} />}
-            <Route exact path="/order" component={Order} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/careers" component={Careers} />
+            <Route path="/about" component={About} />
+            <Route path="/menu" component={Menu} />}
+            <Route path="/promos" component={Promos} />}
+            <Route path="/order" component={Order} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/careers" component={Careers} />
           </Switch>
           <Footer />
         </div>
