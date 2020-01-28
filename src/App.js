@@ -45,9 +45,8 @@ class App extends Component {
             <Route exact path="/order" component={Order} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/careers" component={Careers} />
-            */} */}
+            <Footer />
           </Switch>
-          <Footer />
         </div>
       </BrowserRouter>
     );
