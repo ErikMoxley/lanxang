@@ -8,6 +8,7 @@ import {
   faTwitter,
   faFacebook
 } from "@fortawesome/free-brands-svg-icons";
+import "../styles/Footer.css";
 
 const Footer = () => (
   <div className="footerDiv">

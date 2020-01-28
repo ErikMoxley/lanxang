@@ -14,6 +14,8 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    height: 100%;
+    position: relative;
   }
 
   body {
@@ -21,6 +23,10 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     z-index: 1;
+    height: 100%;
+    position: relative;
+    height: 100%;
+    position: relative;
   }
 `;
 
