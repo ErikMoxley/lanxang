@@ -24,7 +24,7 @@
 }
 
 .page {
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
   min-height: 40vh;
 }
 @media (max-width: 669px) {

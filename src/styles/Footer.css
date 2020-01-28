@@ -11,10 +11,13 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding-top: 3rem;
+  padding-left: 3rem;
 }
 
 .footerContent {
-  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footerLinks {
@@ -38,4 +41,11 @@ footer {
   font-size: 10px;
   font-weight: 900;
   padding: 1rem;
+}
+
+.address {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-size: 14px;
+  color: gray;
 }

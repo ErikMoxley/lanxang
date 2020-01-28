@@ -109,9 +109,9 @@ const NavBarTop = styled(animated.nav)`
   background: #2d3436;
   z-index: 3;
   font-size: 1.4rem;
-  @media (max-width: 369px) {
-    font-size: 1rem;
-  }
+  // @media (max-width: 369px) {
+  //   font-size: 1rem;
+  // }
 `;
 
 const FlexContainer = styled.div`
