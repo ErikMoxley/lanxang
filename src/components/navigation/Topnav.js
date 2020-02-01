@@ -30,7 +30,7 @@ const Topnav = props => {
   });
 
   return (
-    <>
+    <div data-testid="topNav">
       <NavBarTop style={barAnimation}>
         <FlexContainer>
           <BrandTop />
@@ -94,7 +94,7 @@ const Topnav = props => {
         navbarState={props.navbarState}
         handleNavbar={props.handleNavbar}
       />
-    </>
+    </div>
   );
 };
 
